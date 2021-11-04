@@ -1,0 +1,169 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background: url(./njyt.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+.header{
+    margin: 200px;
+    font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: #ececed;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+    background: #666666;
+background: -moz-linear-gradient(top, #666666 0%, #ADADAD 5%, #E3E3E3 100%);
+background: -webkit-linear-gradient(top, #666666 0%, #ADADAD 5%, #E3E3E3 100%);
+background: linear-gradient(to bottom, #666666 0%, #ADADAD 5%, #E3E3E3 100%);
+}
+.dws-menu > ul li {
+    position: relative;
+}
+.dws-menu > ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+    border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+.dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover > ul{
+    display: block;
+}
+.dws-menu{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img{
+    width: 400px;
+    height: 800px;
+}
+.gg {
+    color: white;
+}
+.checked{
+    width: 200px;
+    height: 100px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.text{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.top-block{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: url(./Енот1.jpg) no-repeat center top / cover;
+}
+.bottom-block{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: url(./Енот10.jpg) no-repeat center top / cover;
+}
+.button{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 50px;
+    background: #36779A;
+    max-width: 300px;
+}
+.popup-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+}
+.close-popup{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+.icons{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-device-width: 200px) {
+    .classForiPhoneDisplay {
+      font-size: 1.2em;
+    }
+  }
+
+
+  
+
+
+
+  
